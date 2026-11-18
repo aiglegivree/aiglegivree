@@ -25,7 +25,7 @@ Can investors beat the market by copying the stock trades that members of the U.
 </tr>
 <tr>
 <td width="230"><img src="https://raw.githubusercontent.com/aiglegivree/evanayoub/main/assets/projects/sisyphus/robot.jpg" width="220" alt="Sisyphus mobile robot outdoors at Leukerbad"></td>
-<td><strong>Sisyphus · 1st Place, Leukerbad Robotics Hackathon 2026</strong><br>Co-developed a modular mobile robot for urban services. Its first application matches recipient names on envelopes to mailboxes for autonomous delivery. The team won the Grand Final and the Autonomous Urban Services track.</td>
+<td><strong>Sisyphus · 1st Place, Leukerbad Robotics Hackathon 2026</strong><br>Co-developed a modular mobile robot for urban services. Its first application matches recipient names on envelopes to mailboxes for autonomous delivery. We won the Grand Final and the Autonomous Urban Services track.</td>
 </tr>
 </table>
 
