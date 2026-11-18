@@ -13,15 +13,15 @@ I’m a Robotics MSc student at EPFL with a minor in Data Science. I build visio
 </tr>
 <tr>
 <td width="230"><img src="assets/valobot-course.jpg" width="220" alt="Valobot navigating a walled section of the competition course"></td>
-<td><strong>Valobot &middot; 1st place, EPFL Robopoly competition</strong><br>We built a robot that uses a single camera to follow a line and navigate corridors. We won the EPFL Robopoly competition.</td>
+<td><strong>Valobot &middot; 1st place, EPFL Robopoly competition</strong><br>We built a robot that uses a single camera to follow a line and navigate corridors. We won the EPFL Robopoly competition.<br><a href="https://github.com/aiglegivree/Valobot/blob/main/Code_fsm_v1/controller.py">Line-following code</a></td>
 </tr>
 <tr>
 <td width="230"><img src="https://raw.githubusercontent.com/aiglegivree/evanayoub/main/assets/projects/xplore-hds/polaris.jpg" width="220" alt="EPFL Xplore’s Polaris rover on rocky terrain"></td>
-<td><strong>Vision-guided rover manipulation · EPFL Xplore</strong><br>Developing a system for the European Rover Challenge that detects and tracks target objects and controls a rover-mounted arm for pick-and-place tasks.</td>
+<td><strong>Vision-guided rover manipulation · EPFL Xplore</strong><br>Developing a system for the European Rover Challenge that detects and tracks target objects and controls a rover-mounted arm for pick-and-place tasks.<br><a href="https://github.com/EPFLXplore/ERC_HD">Team arm software</a></td>
 </tr>
 <tr>
 <td width="230"><img src="assets/material-prediction.png" width="220" alt="Commercial kitchen RGB photo beside its predicted material map"></td>
-<td><strong>Material classification and segmentation in images · DISAL, EPFL</strong><br>Trained a ConvNeXt model with sparse annotations to recognize materials in everyday scenes. Used structured pruning to reduce model size for devices with limited compute.</td>
+<td><strong>Material classification and segmentation in images · DISAL, EPFL</strong><br>Trained a ConvNeXt model with sparse annotations to recognize materials in everyday scenes. Used structured pruning to reduce model size for devices with limited compute.<br><a href="assets/material-prediction.png">Example prediction</a> &middot; <a href="https://github.com/aiglegivree/evanayoub/blob/main/assets/projects/material-recognition/report-pipeline.png">Model architecture</a></td>
 </tr>
 <tr>
 <td width="230"><img src="assets/uno-predictions.jpg" width="220" alt="Detected UNO cards labeled on a patterned table"></td>
