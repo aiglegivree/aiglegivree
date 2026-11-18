@@ -1,40 +1,37 @@
 # Evan Ayoub
 
-I’m a Robotics MSc student at EPFL with a minor in Data Science. I build vision and control systems that help robots recognize objects, navigate, and manipulate what they see.
+I’m a Robotics MSc student at EPFL with a minor in Data Science. I write software for robot perception and control, from recognizing objects in camera frames to steering a robot on a physical course.
 
 [Portfolio](https://aiglegivree.github.io/evanayoub/) · [CV](https://aiglegivree.github.io/evanayoub/assets/cv/CV_2026_en.pdf) · [LinkedIn](https://www.linkedin.com/in/evan-joseph-gerard-ayoub)
 
-## Selected projects
+## Selected public code
 
-<table>
-<tr>
-<td width="230"><img src="https://raw.githubusercontent.com/aiglegivree/evanayoub/main/assets/projects/sisyphus/robot.jpg" width="220" alt="Sisyphus mobile robot outdoors at Leukerbad"></td>
-<td><strong>Sisyphus · 1st Place, Leukerbad Robotics Hackathon 2026</strong><br>We built a low-cost, modular robot for urban services. Its first application picks up envelopes, matches each recipient’s name to a mailbox, and delivers the mail. We won the Grand Final and the Autonomous Urban Services track.<br><a href="https://aiglegivree.github.io/evanayoub/assets/projects/sisyphus/demo.mp4">Watch the delivery run</a></td>
-</tr>
-<tr>
-<td width="230"><img src="assets/valobot-course.jpg" width="220" alt="Valobot navigating a walled section of the competition course"></td>
-<td><strong>Valobot &middot; 1st place, EPFL Robopoly competition</strong><br>We built a robot that uses a single camera to follow a line and navigate corridors. We won the EPFL Robopoly competition.<br><a href="https://github.com/aiglegivree/Valobot/blob/main/Code_fsm_v1/controller.py">Line-following code</a></td>
-</tr>
-<tr>
-<td width="230"><img src="https://raw.githubusercontent.com/aiglegivree/evanayoub/main/assets/projects/xplore-hds/polaris.jpg" width="220" alt="EPFL Xplore’s Polaris rover on rocky terrain"></td>
-<td><strong>Vision-guided rover manipulation · EPFL Xplore</strong><br>Developing a system for the European Rover Challenge that detects and tracks target objects and controls a rover-mounted arm for pick-and-place tasks.<br><a href="https://github.com/EPFLXplore/ERC_HD">Team arm software</a></td>
-</tr>
-<tr>
-<td width="230"><img src="assets/material-prediction.png" width="220" alt="Commercial kitchen RGB photo beside its predicted material map"></td>
-<td><strong>Material classification and segmentation in images · DISAL, EPFL</strong><br>Trained a ConvNeXt model with sparse annotations to recognize materials in everyday scenes. Used structured pruning to reduce model size for devices with limited compute.<br><a href="assets/material-prediction.png">Example prediction</a> &middot; <a href="https://github.com/aiglegivree/evanayoub/blob/main/assets/projects/material-recognition/report-pipeline.png">Model architecture</a></td>
-</tr>
-<tr>
-<td width="230"><img src="assets/uno-predictions.jpg" width="220" alt="Detected UNO cards labeled on a patterned table"></td>
-<td><strong>UNO Vision Challenge &middot; 2nd place, EPFL</strong><br>We built a vision system that recognizes UNO cards on a table and assigns each card to its player. <a href="https://github.com/aiglegivree/IAPR_gr69/blob/main/project/final_group_69_gr_69/results_notebook.ipynb">View our results</a></td>
-</tr>
-<tr>
-<td width="230"><a href="https://ada-2025-project-adaptateurusbversu.vercel.app/"><img src="assets/copycat-portfolios.png" width="220" alt="Copycat Portfolios, our interactive study of congressional stock trading"></a></td>
-<td><strong>Copycat Portfolios</strong><br>Can investors beat the market by copying the stock trades that members of the U.S. Congress publicly disclose?<br><strong><a href="https://ada-2025-project-adaptateurusbversu.vercel.app/">Explore the interactive demo</a></strong> &middot; <a href="https://github.com/epfl-ada/Congressional-Stock-Trading-Behavior">Team repository</a></td>
-</tr>
-</table>
+### Valobot
 
-## More project code
+Our EPFL Robopoly robot follows lines and navigates corridors using a single camera. I worked on controller integration and tuned the line follower using recorded runs. The controller shows how an error measured in the image becomes a command for each wheel.
 
-- [Autonomous drone navigation](https://github.com/aiglegivree/Aerial#drone-gate-navigation) · Webots controller and [Crazyflie flight tests](https://github.com/aiglegivree/Aerial_Hardware#crazyflie-flight-tests)
+[Line-following controller](https://github.com/aiglegivree/Valobot/blob/main/Code_fsm_v1/controller.py)
 
-**Tools I use** · Python, C/C++, PyTorch, OpenCV, MATLAB, Webots
+<img src="assets/valobot-course.jpg" width="240" alt="Valobot on the course used to test navigation">
+
+### Autonomous drone navigation
+
+I developed a gate-navigation controller in Webots, then worked with our EPFL flight team to transfer it to a Crazyflie. The simulation controller and the hardware flight script are in separate course forks.
+
+[Webots controller](https://github.com/aiglegivree/Aerial/blob/main/controllers/main/assignment/my_assignment.py) · [Hardware flight script](https://github.com/aiglegivree/Aerial_Hardware/blob/master/myassignement/hardware_lap1.py)
+
+### UNO Vision Challenge
+
+Our EPFL group built a pipeline that takes a photo of a game, recognizes the cards, and assigns them to players. The main script ties the stages together. The results notebook shows how the pipeline performed.
+
+[Pipeline entry point](https://github.com/aiglegivree/IAPR_gr69/blob/main/project/final_group_69_gr_69/main.py) · [Results notebook](https://github.com/aiglegivree/IAPR_gr69/blob/main/project/final_group_69_gr_69/results_notebook.ipynb)
+
+<img src="assets/uno-predictions.jpg" width="240" alt="Predicted card labels on a UNO game">
+
+### Copycat Portfolios
+
+Can investors beat the market by copying the stock trades that members of the U.S. Congress publicly disclose? Our EPFL Applied Data Analysis team investigated that question in a notebook and built an interactive site to present the results.
+
+[Analysis notebook](https://github.com/epfl-ada/Congressional-Stock-Trading-Behavior/blob/main/results.ipynb) · [Team repository](https://github.com/epfl-ada/Congressional-Stock-Trading-Behavior) · **[Interactive demo](https://ada-2025-project-adaptateurusbversu.vercel.app/)**
+
+<a href="https://ada-2025-project-adaptateurusbversu.vercel.app/"><img src="assets/copycat-portfolios.png" width="240" alt="Opening page of the Copycat Portfolios data story"></a>
