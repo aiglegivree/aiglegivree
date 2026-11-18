@@ -35,3 +35,11 @@ Can investors beat the market by copying the stock trades that members of the U.
 [Analysis notebook](https://github.com/epfl-ada/Congressional-Stock-Trading-Behavior/blob/main/results.ipynb) · [Team repository](https://github.com/epfl-ada/Congressional-Stock-Trading-Behavior) · **[Interactive demo](https://ada-2025-project-adaptateurusbversu.vercel.app/)**
 
 <a href="https://ada-2025-project-adaptateurusbversu.vercel.app/"><img src="assets/copycat-portfolios.png" width="240" alt="Opening page of the Copycat Portfolios data story"></a>
+
+## Hackathon demo
+
+**Sisyphus · 1st place - Leukerbad Robotics Hackathon 2026**
+
+We built a low-cost mobile robot with interchangeable modules for urban services. Its first application, Leukerbad Postman, picks up envelopes, matches each recipient’s name to a mailbox, and delivers them. We won the Grand Final and the Autonomous Urban Services track.
+
+[Watch the accelerated delivery demo](https://aiglegivree.github.io/evanayoub/assets/projects/sisyphus/demo.mp4)
