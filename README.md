@@ -8,21 +8,21 @@ I’m a Robotics MSc student at EPFL with a minor in Data Science. I write softw
 
 ### Valobot
 
-Our EPFL Robopoly robot follows lines and navigates corridors using a single camera. I worked on controller integration and tuned the line follower using recorded runs. The controller shows how an error measured in the image becomes a command for each wheel.
+Our EPFL Robopoly robot follows lines and navigates corridors before shooting targets all of this using a single camera.
 
-[Line-following controller](https://github.com/aiglegivree/Valobot/blob/main/Code_fsm_v1/controller.py)
+[Code](https://github.com/aiglegivree/Valobot/blob/main/Code_fsm_v1/controller.py)
 
 <img src="assets/valobot-course.jpg" width="240" alt="Valobot on the course used to test navigation">
 
 ### Autonomous drone navigation
 
-I developed a gate-navigation controller in Webots, then worked with our EPFL flight team to transfer it to a Crazyflie. The simulation controller and the hardware flight script are in separate course forks.
+I developed a gate-navigation controller in Webots, then worked with my team to transfer it to a Crazyflie. The simulation controller and the hardware flight script are in separate course forks.
 
-[Webots controller](https://github.com/aiglegivree/Aerial/blob/main/controllers/main/assignment/my_assignment.py) · [Hardware flight script](https://github.com/aiglegivree/Aerial_Hardware/blob/master/myassignement/hardware_lap1.py)
+[Simulatoin controller](https://github.com/aiglegivree/Aerial/blob/main/controllers/main/assignment/my_assignment.py) · [Hardware controler](https://github.com/aiglegivree/Aerial_Hardware/blob/master/myassignement/hardware_lap1.py)
 
 ### UNO Vision Challenge
 
-Our EPFL group built a pipeline that takes a photo of a game, recognizes the cards, and assigns them to players. The main script ties the stages together. The results notebook shows how the pipeline performed.
+Our EPFL group built a pipeline that takes a photo of a uno game, recognizes the cards, and assigns them to players. The main script ties the stages together. The results notebook shows how the pipeline performed.
 
 [Pipeline entry point](https://github.com/aiglegivree/IAPR_gr69/blob/main/project/final_group_69_gr_69/main.py) · [Results notebook](https://github.com/aiglegivree/IAPR_gr69/blob/main/project/final_group_69_gr_69/results_notebook.ipynb)
 
