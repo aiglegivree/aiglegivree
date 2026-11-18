@@ -1,11 +1,28 @@
 # Evan Ayoub
 
-Robotics MSc student at EPFL, with a minor in Data Science. I work on computer vision, robotic manipulation, and autonomous systems.
+Robotics MSc student at EPFL with a minor in Data Science. I build perception and control systems for robots, with a focus on computer vision, manipulation, and autonomous navigation.
+
+[Portfolio](https://aiglegivree.github.io/evanayoub/) · [CV](https://aiglegivree.github.io/evanayoub/assets/cv/CV_2026_en.pdf) · [LinkedIn](https://www.linkedin.com/in/evan-joseph-gerard-ayoub)
 
 ## Selected projects
 
-- **EPFL Xplore** — Vision-guided manipulation for the European Rover Challenge, from detecting target objects to controlling a rover-mounted arm.
-- **Material classification and segmentation** — Built a system that identifies materials in everyday images and used structured pruning to reduce the model size for devices with limited compute.
-- **Sisyphus** — Co-developed a modular mobile robot for urban services. Our team won the Grand Final and the Autonomous Urban Services track at the 2026 Leukerbad Robotics Hackathon.
+<table>
+<tr>
+<td width="230"><img src="https://raw.githubusercontent.com/aiglegivree/evanayoub/main/assets/projects/xplore-hds/polaris.jpg" width="220" alt="EPFL Xplore’s Polaris rover on rocky terrain"></td>
+<td><strong>Vision-guided rover manipulation · EPFL Xplore</strong><br>Developing a system for the European Rover Challenge that detects and tracks target objects and controls a rover-mounted arm for pick-and-place tasks.</td>
+</tr>
+<tr>
+<td width="230"><img src="assets/material-prediction.png" width="220" alt="Commercial kitchen RGB photo beside its predicted material map"></td>
+<td><strong>Material classification and segmentation in images · DISAL, EPFL</strong><br>Trained a ConvNeXt model with sparse annotations to recognize materials in everyday scenes. Used structured pruning to reduce model size for devices with limited compute.</td>
+</tr>
+<tr>
+<td width="230"><img src="https://raw.githubusercontent.com/aiglegivree/evanayoub/main/assets/projects/sisyphus/robot.jpg" width="220" alt="Sisyphus mobile robot outdoors at Leukerbad"></td>
+<td><strong>Sisyphus · 1st Place, Leukerbad Robotics Hackathon 2026</strong><br>Co-developed a modular mobile robot for urban services. Its first application matches recipient names on envelopes to mailboxes for autonomous delivery. The team won the Grand Final and the Autonomous Urban Services track.</td>
+</tr>
+</table>
 
-[Portfolio and CV](https://aiglegivree.github.io/evanayoub/) · [LinkedIn](https://www.linkedin.com/in/evan-joseph-gerard-ayoub)
+## Technical focus
+
+- **Perception:** semantic segmentation, object detection and tracking, model compression
+- **Robotics:** vision-guided manipulation, autonomous navigation, sensor fusion
+- **Tools:** Python, C/C++, PyTorch, OpenCV, MATLAB, and Webots
