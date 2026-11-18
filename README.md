@@ -4,6 +4,14 @@ Robotics MSc student at EPFL with a minor in Data Science. I build perception an
 
 [Portfolio](https://aiglegivree.github.io/evanayoub/) · [CV](https://aiglegivree.github.io/evanayoub/assets/cv/CV_2026_en.pdf) · [LinkedIn](https://www.linkedin.com/in/evan-joseph-gerard-ayoub)
 
+## Copycat Portfolios
+
+Can investors beat the market by copying the stock trades that members of the U.S. Congress publicly disclose?
+
+[![Copycat Portfolios demo showing the introduction to the congressional stock trading study](assets/copycat-portfolios.png)](https://ada-2025-project-adaptateurusbversu.vercel.app/)
+
+**[Explore the interactive demo](https://ada-2025-project-adaptateurusbversu.vercel.app/)** | [Team repository](https://github.com/epfl-ada/ada-2025-project-adaptateurusbversusbcet10gboslotde3conv)
+
 ## Selected projects
 
 <table>
