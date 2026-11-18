@@ -4,7 +4,7 @@ I’m a Robotics MSc student at EPFL with a minor in Data Science. I build visio
 
 [Portfolio](https://aiglegivree.github.io/evanayoub/) · [CV](https://aiglegivree.github.io/evanayoub/assets/cv/CV_2026_en.pdf) · [LinkedIn](https://www.linkedin.com/in/evan-joseph-gerard-ayoub)
 
-## Selected robotics projects
+## Selected projects
 
 <table>
 <tr>
@@ -19,15 +19,11 @@ I’m a Robotics MSc student at EPFL with a minor in Data Science. I build visio
 <td width="230"><img src="assets/material-prediction.png" width="220" alt="Commercial kitchen RGB photo beside its predicted material map"></td>
 <td><strong>Material classification and segmentation in images · DISAL, EPFL</strong><br>Trained a ConvNeXt model with sparse annotations to recognize materials in everyday scenes. Used structured pruning to reduce model size for devices with limited compute.</td>
 </tr>
+<tr>
+<td width="230"><a href="https://ada-2025-project-adaptateurusbversu.vercel.app/"><img src="assets/copycat-portfolios.png" width="220" alt="Copycat Portfolios, our interactive study of congressional stock trading"></a></td>
+<td><strong>Copycat Portfolios</strong><br>Can investors beat the market by copying the stock trades that members of the U.S. Congress publicly disclose?<br><strong><a href="https://ada-2025-project-adaptateurusbversu.vercel.app/">Explore the interactive demo</a></strong> &middot; <a href="https://github.com/epfl-ada/Congressional-Stock-Trading-Behavior">Team repository</a></td>
+</tr>
 </table>
-
-## Copycat Portfolios
-
-Can investors beat the market by copying the stock trades that members of the U.S. Congress publicly disclose?
-
-<a href="https://ada-2025-project-adaptateurusbversu.vercel.app/"><img src="assets/copycat-portfolios.png" width="460" alt="Copycat Portfolios, our interactive study of congressional stock trading"></a>
-
-**[Explore the interactive demo](https://ada-2025-project-adaptateurusbversu.vercel.app/)** | [Team repository](https://github.com/epfl-ada/Congressional-Stock-Trading-Behavior)
 
 ## More project code
 
