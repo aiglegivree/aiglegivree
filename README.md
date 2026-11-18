@@ -6,7 +6,7 @@ I’m a Robotics MSc student at EPFL with a minor in Data Science. I write softw
 
 ## Selected public code
 
-### Valobot
+### Valobot · 1st place - EPFL Robopoly competition
 
 Our EPFL Robopoly robot follows lines and navigates corridors before shooting targets all of this using a single camera.
 
@@ -38,7 +38,7 @@ Can investors beat the market by copying the stock trades that members of the U.
 
 ## Hackathon demo
 
-**Sisyphus · 1st place - Leukerbad Robotics Hackathon 2026**
+### Sisyphus · 1st place - Leukerbad Robotics Hackathon 2026
 
 We built a low-cost mobile robot with interchangeable modules for urban services. Its first application, Leukerbad Postman, picks up envelopes, matches each recipient’s name to a mailbox, and delivers them. We won the Grand Final and the Autonomous Urban Services track.
 
